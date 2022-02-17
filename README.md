@@ -28,12 +28,12 @@ PowerShell script that exports System inventory such as hardware, missing driver
 
 __the script output:__
 
-![HostOuput](\.images\hostoutput.png)
+![HostOutput](/.images/hostoutput.png)
 
 
 __the file export:__
 
-![FolderExport](\.images\exportedfiles.png)
+![FolderExport](/.images/exportedfiles.png)
 
 
 ## Questions
