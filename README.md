@@ -2,6 +2,26 @@
 PowerShell script that exports System inventory such as hardware, missing drivers GPO, updates, etc
 
 
+# Execute
+
+Be sure to read the SYNOPSIS at top of script. Here are some examples:
+
+_Exports all areas..._
+
+```powershell
+    .\ExportSystemInventory.ps1
+```
+
+_Exports all areas but exports to different location (c:\Temp\Exports)..._
+```powershell
+    .\ExportSystemInventory.ps1 -ExportPath c:\Temp\Exports
+```
+
+_Exports only updates which includes hotfixes._
+```powershell
+    .\ExportSystemInventory.ps1 -Category Updates
+```
+
 ## Current items exported:
 - MSINFO
 - Bitlocker Information
